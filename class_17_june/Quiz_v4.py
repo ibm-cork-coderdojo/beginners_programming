@@ -11,6 +11,12 @@ question_number = 1
 for question in questions:
     print(question_number,".", question)
     answer = input("Your Answer: ")
+    '''
+    Use the lower() function on each String before comparing.
+    This will convert any uppercase characters to lowercase, and
+    ensure that both Strings are compared like-for-like in lowercase only.
+    Note that this will not always work with some special characters...
+    '''
     if (answer.lower() == answers[question_number - 1].lower()):
         print("Correct!")
         score += 1
