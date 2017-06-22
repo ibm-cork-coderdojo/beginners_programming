@@ -1,6 +1,15 @@
 questions = ["What is Michael's surname?", "What age is Michael?", "What is Michael's favourite fish?"]
 answers = ["O'Sullivan", "27", "Salmon"]
 score = 0
+
+'''
+In version 3, we change the max_score variable 
+to remove the hardcoding of 3 being the max score.
+We can use the len() function to get the number
+of items in the questions list.
+This way, even if more questions added, we don't
+need to manually adjust the maximum score.
+'''
 max_score = len(questions)
 
 print("Welcome to the Michael quiz!")
