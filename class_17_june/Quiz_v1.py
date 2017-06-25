@@ -29,12 +29,12 @@ Print the second question from the questions list,
 and ask the player for an answer
 '''
 print("2.", questions[1])
-answer_one = input("Your Answer: ")
+answer_two = input("Your Answer: ")
 '''
 As with the first question, check did they get it right,
 and give a point if they did
 '''
-if (answer_one == answers[1]):
+if (answer_two == answers[1]):
     print("Correct!")
     score+=1
 else:
@@ -45,13 +45,13 @@ Print the third question from the questions list,
 and ask the player for an answer
 '''
 print("3. ", questions[2])
-answer_one = input("Your Answer: ")
+answer_three = input("Your Answer: ")
 
 '''
 As with the first and second questions, check did they get it right,
 and give a point if they did
 '''
-if (answer_one == answers[2]):
+if (answer_three == answers[2]):
     print("Correct!")
     score+=1
 else:
